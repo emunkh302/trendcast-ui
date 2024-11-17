@@ -1,0 +1,96 @@
+/* src/styles.css */
+
+body {
+    margin: 0;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    background-color: #121212;
+    color: #ffffff;
+  }
+  
+  .app {
+    text-align: center;
+  }
+  
+  .home-page,
+  .admin-page {
+    padding: 20px;
+  }
+  
+  .podcast-player {
+    background-color: #1e1e1e;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .podcast-player img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 8px;
+  }
+  
+  .podcast-player h3 {
+    color: #1db954;
+  }
+  
+  .podcast-stats,
+  .star-rating,
+  .share-buttons {
+    margin: 10px 0;
+  }
+  
+  .share-buttons svg {
+    color: #1db954;
+    margin: 0 5px;
+    cursor: pointer;
+  }
+  
+  .admin-dashboard form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .admin-dashboard input,
+  .admin-dashboard textarea {
+    margin: 10px 0;
+    padding: 10px;
+    width: 80%;
+    max-width: 500px;
+  }
+  
+  .admin-dashboard button {
+    padding: 10px 20px;
+    background-color: #1db954;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+  }
+  
+  .pagination {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+  }
+  
+  .pagination li {
+    margin: 0 5px;
+    cursor: pointer;
+  }
+  
+  .pagination .active {
+    font-weight: bold;
+  }
+  
+  .modal {
+    background-color: #1e1e1e;
+    padding: 20px;
+    border-radius: 8px;
+    color: #ffffff;
+  }
+  
+  .overlay {
+    background-color: rgba(0, 0, 0, 0.75);
+  }
+  
